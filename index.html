@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+<!--font-awesome-->
+     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+     <link href="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+     <script src="https://Kit.fontawesome.com/a81369140.js"></script>
+     <!-- importation de google fonts-->
+     <link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet"> 
+
+
+     <title>Mon Planing De Jour</title>
+     <!--fichier css-->
+     <link rel="stylesheet" type="text/css" href="style.css">
+      
+    </head>
+ <body>
+     <!-- title-->
+     <h1><span class="styling">Mon Planing </span> De Jour</h1>
+     <!--ajout de tache input principale-->
+     <div class="input_div">
+         <input class="input" type="text" placeholder="Que veux-tu faire Aujourdhui...">
+         <button class="addButton"><i class="fa fa-plus"></i></button>
+     </div>
+     <!--liste de tache-->
+     <div class="container">
+         <!--item-single-->
+         <div class="item">
+             <input type="text" class="item-input" disabled>
+             <button class="editButton">EDITH</button>
+             <button class="remouveButton">Remove</button>
+         </div>
+           <!--item-single-->
+           <div class="item">
+            <input type="text" class="item-input" value="Preparer le petit dejeuner" disabled>
+            <button class="editButton">EDITH</button>
+            <button class="remouveButton">Remove</button>
+        </div>
+     </div>
+  
+     <!--importation de fichier js-->
+    <script type="text/javascript" src="main.js"></script>
+ </body>
+ </html>
