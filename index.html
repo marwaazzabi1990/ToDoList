@@ -11,38 +11,87 @@
      <script src="https://Kit.fontawesome.com/a81369140.js"></script>
      <!-- importation de google fonts-->
      <link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet"> 
-
-
+  
      <title>Mon Planing De Jour</title>
      <!--fichier css-->
-     <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="stylesheet" type="text/css" href="style.css">
       
     </head>
  <body>
+
+     <div class="header">
+        <h2 ><span class="styling">Mon Planing </span> De Jour</h2>
+        <input type="text" id="myInput" placeholder="Que veux-tu faire Aujourdhui...">
+        <span  class="addBtn" onclick="newElement()">Add items</span>
+      </div>
+      <ul id="myUL">
+        <li >Preparer le petit dej</li>
+        <li>faire le menage de maison </li>
+       
+        <li >faire etude en ligne </li>
+        <li>prend le dejeuner</li>
+        
+      </ul>
+      <button type="button" id="clear-list" onclick="removeAll()">Clear Items</button>
+      <script type="text/javascript" src="main.js"></script>
+    </body>
+  </html>
+
+ 
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+   <!--->
+
+
+ 
      <!-- title-->
-     <h1><span class="styling">Mon Planing </span> De Jour</h1>
+     
+     <!-- <h1><span class="styling">Mon Planing </span> De Jour</h1>
+     <div  class="header">
+     <input  type="text" class="myInput" placeholder="Que veux-tu faire Aujourdhui...">
+     <span onclick="newElement()" class="addBtn">Add</span>
+   </div>
+   <ul id="myUL">
+    <div class="input_div">
+    <li><input class="item_input" >Hit the gym</li>
+    </div>
+    <div class="input_div">
+    <li class="checked" class="item_input" >Pay bills</li>
+    <div class="input_div">
+   
+  </ul>
+
+     
      <!--ajout de tache input principale-->
-     <div class="input_div">
-         <input class="input" type="text" placeholder="Que veux-tu faire Aujourdhui...">
-         <button class="addButton"><i class="fa fa-plus"></i></button>
+     <!-- <div class="input_div">
+         <input class="input" id="myInput" type="text" placeholder="Que veux-tu faire Aujourdhui...">
+         <button onclick="newElement()" class="addButton"><i class="fa fa-plus"></i></button>
      </div>
      <!--liste de tache-->
-     <div class="container">
-         <!--item-single-->
-         <div class="item">
-             <input type="text" class="item-input" disabled>
-             <button class="editButton">EDITH</button>
-             <button class="remouveButton">Remove</button>
-         </div>
-           <!--item-single-->
+    <!--  <div class="container">
+      <!--
+          item-single
            <div class="item">
-            <input type="text" class="item-input" value="Preparer le petit dejeuner" disabled>
+            <input type="text" class="item_input" value="Preparer le petit dejeuner" disabled>
             <button class="editButton">EDITH</button>
             <button class="remouveButton">Remove</button>
         </div>
-     </div>
-  
-     <!--importation de fichier js-->
+    -->
+    
+          <!--importation de fichier js-->
     <script type="text/javascript" src="main.js"></script>
+
  </body>
  </html>
